@@ -1,4 +1,4 @@
-$Macro OUTBINNAME "mod_hl2mp"
+$Macro OUTBINNAME "WhoIsTheImpostor"
 
 $Conditional "MOD_LAUNCHER" "1"
 
@@ -12,11 +12,11 @@ $Configuration
 	}
 }
 
-$Project "Launcher Main (Mod HL2MP)"
+$Project "Launcher Main (WhoIsTheImpostor)"
 {
     $Folder "Resource Files" [$WINDOWS]
     {
-        $File   "launcher_main_mod_hl2mp.rc"
+        $File   "launcher_main_whoistheimpostor.rc"
         $File   "res\mod_hl2mp.ico"
     }
 }

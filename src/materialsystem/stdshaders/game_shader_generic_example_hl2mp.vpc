@@ -5,10 +5,10 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro OUTBINNAME "game_shader_generic_example"
-$Macro GAMENAME "mod_hl2mp"
+$Macro OUTBINNAME "shaders"
+$Macro GAMENAME "WhoIsTheImpostor"
 $Include "$SRCDIR\materialsystem\stdshaders\game_shader_generic_example_base.vpc"
 
-$Project "Game Shaders (HL2MP)"
+$Project "Game Shaders (WhoIsTheImpostor)"
 {
 }
